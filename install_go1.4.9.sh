@@ -16,12 +16,12 @@
 wget https://dl.google.com/go/go1.9.4.linux-amd64.tar.gz
 
 sudo tar -xvf go1.9.4.linux-amd64.tar.gz
-sudo mv go /home/ubuntu/go1.9.4
+sudo mv go /home/$USER/go1.9.4
 
-mkdir /home/ubuntu/go
+mkdir /home/$USER/go
 
-export GOROOT=/home/ubuntu/go1.9.4
-export GOPATH=/home/ubuntu/go
+export GOROOT=/home/$USER/go1.9.4
+export GOPATH=/home/$USER/go
 
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
